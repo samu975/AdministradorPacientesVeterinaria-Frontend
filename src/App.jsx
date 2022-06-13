@@ -18,6 +18,7 @@ import { AuthProvider } from "./context/AuthProvider";
 import { PacientesProvider } from "./context/PacientesProvider";
 
 function App() {
+  console.log('Hola vienes a chismosear un poco ? pues te cuento que la funcionalidad de registrarse se desahabilito, asi que si quieres curiosear ingresando los datos correo@correo en mail y 123456 en contraseña')
   return (
     <BrowserRouter>
       <AuthProvider>
